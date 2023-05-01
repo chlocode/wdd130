@@ -1,2 +1,2 @@
 # wdd130
-web fundamentals project files
+This repository contains HTML and CSS files.
