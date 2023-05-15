@@ -2,6 +2,12 @@ body{
     background-color: rgb(255, 156, 189);
     text-align: center;
 }
+h1, .small_quote, h5, .big_quote{
+    color: white;
+}
+h1:hover{
+    color:black;
+}
 .small_quote{
     margin-left: 34%;
     margin-right: 34%;
@@ -11,8 +17,16 @@ ol{
     margin-left: 39%;
     margin-left: 39%;
 }
+img{
+    width: 10%;
+}
 .big_quote{
     font-size: x-large;
     margin-left: 43%;
     margin-right: 43%;
+}
+.bottom-text{
+    margin-top: -1%;
+    margin-right: 39%;
+    margin-left: 39%;
 }
