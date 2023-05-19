@@ -1,0 +1,13 @@
+.image{
+    border-radius: 50%;
+    width: 14%;
+    border: 10px solid rgb(67, 66, 66);
+    margin-left: 13%;
+}
+.top{
+    margin: 0% 5%;
+}
+.bottom{
+    background-color: grey;
+    margin: 0% 5%;
+}
