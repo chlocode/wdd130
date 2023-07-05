@@ -9,6 +9,7 @@ body{
 header{
     background-color: black;
     display: grid;
+    border: solid white 5px;
     grid-template-columns: 150px auto;
 }
 .icon, .logo{
@@ -26,10 +27,11 @@ header{
     max-width: 1600px;
     margin: 0 auto;
 }
-nav {
+/*nav {
     display: flex;
     justify-content: space-around;
-}
+    border: solid white 5px;
+}*/
 nav a{
     text-align: center;
     color: #d4d8d8;
@@ -37,6 +39,7 @@ nav a{
     padding-top: 35px;
 }
 nav a:hover{
+    border-radius: 5px;
     background-color: #ffe66d;
     color: black;
 }
@@ -187,6 +190,21 @@ footer p a:hover{
 }
 footer .social img{
     padding-top: 15px;
+}
+
+/*FAQ page*/
+.box-grid{
+    /*border: solid black 2px;*/
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+}
+.sidebar{
+    justify-self: center;
+    /*border: solid black 2px;*/
+}
+.subb{
+    /*border: solid black 2px;*/
+    justify-self: center;
 }
 
 @media screen and (max-width: 900px) {
